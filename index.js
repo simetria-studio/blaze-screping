@@ -37,7 +37,7 @@ async function scrapping() {
 
   console.log(dadosTemp);
  
-  axios.post('http://localhost:8000/scraping', dadosTemp).then(res => {
+  axios.post('http://68.183.20.67/scraping', dadosTemp).then(res => {
     // console.log(res);
   }).catch(error => {
     console.error(error)
